@@ -12,6 +12,7 @@ const PRODUCTS = [
   {id:8, name:"Pulseira de Grânulos", category:"Pulseiras", price:59.90, rating:4, reviews:52, material:"Prata 925", desc:"Textura orgânica de pequenas esferas que reflete luz de um jeito único — discreta e sofisticada ao mesmo tempo.", measures:"Comprimento: 17cm + 3cm extensor", img:"https://picsum.photos/id/1027/600/600", img2:"https://picsum.photos/id/1031/600/600", img3:"https://picsum.photos/id/1033/600/600", tag:"", sold:99}
 ];
 
+
 const COUPONS = {
   "VIENNA10": 0.10,
   "BEMVINDO10": 0.10

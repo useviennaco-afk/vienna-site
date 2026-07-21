@@ -91,7 +91,56 @@ header.main-header{
   -webkit-background-clip:text;background-clip:text;color:transparent;
   animation:shimmer 5s linear infinite;
   cursor:pointer;
+
+  font-family:'Cormorant Garamond', serif;
+  font-size:36px;
+  font-weight:500;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+
+  background:linear-gradient(
+    120deg,
+    var(--bronze) 0%,
+    var(--dourado) 25%,
+    #F0DFA0 50%,
+    var(--dourado) 75%,
+    var(--bronze) 100%
+  );
+
+  background-size:200% auto;
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+
+  animation:shimmer 6s linear infinite;
+
+  cursor:pointer;
+  user-select:none;
 }
+
+.logo-wrap{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:2px;
+}
+
+.logo-sub{
+  font-family:'Montserrat',sans-serif;
+  font-size:10px;
+  letter-spacing:0.45em;
+  color:var(--texto-suave);
+}
+
+@keyframes shimmer{
+  from{
+    background-position:-200% center;
+  }
+  to{
+    background-position:200% center;
+  }
+}
+
 @keyframes shimmer{0%{background-position:200% center;}100%{background-position:0% center;}}
 nav.main-nav{display:flex;gap:34px;}
 nav.main-nav a{
